@@ -1,0 +1,306 @@
+<!Doctype html>
+<html lang = "eng">
+<head>
+<!--title for the website-->
+<meta charset = "UTF-8">
+<meta name = "description" content = "introduction booking form holiday packages and offers">
+<meta name = "viewport" content = "width=device-width">
+<title>Worldwide Travel</title>
+<!--links to the css google fonts and the jquery interpretor-->
+<link rel = "stylesheet" type = "text/css" href = "style/style.css">
+<!--CSS to the jQuery ui styling which i have modifed to ensure the tooltip matches the theme of the website.-->
+<link rel = "stylesheet" type = "text/css" href = "style/jquery-ui.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<!--jQuery Js-->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<!--Validate interpretor for jquery to identify that it is carrying out validation for form through the use of jQuery-->
+<script
+  src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    
+<!--JQUERY interpreter for ui elements-->
+<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!--start of html-->
+<header>
+<!--logo for the website-->
+<div class = "logo">
+<img src = "img/logo.svg" alt = "">   
+</div>
+<!--Navigation-->
+<ul>
+<li><a href = "#home" style = "animation: slide;">Home</a></li>   
+    <li><a href = "#Packages">Packages</a></li>
+    <li><a href = "#Quote">Get Quote</a></li>
+    <li><a href = "#offers">Offers</a></li>
+</ul>
+</header>
+<!--Main Content Area-->
+ <div class = "main">
+    <h1 style = "margin-top: 50px;" id = "home">Worldwide Travel</h1>
+    <h2 style = "margin-top: 10px;">Who are we</h2>
+    <p style = "margin-top: 10px;">At Worldwide Travel we are a travel company who offer a great range of destinations. <br />
+    Our customers will be able to visit destinations such as Cities like New York <br /> 
+    and coastal escapes on islands such as Majorca.</p>
+    <h1 style = "margin-top: 10px;" id = "Packages">Packages</h1>
+<!--Packages-->
+<div class = "package-grid" style = "margin-top: 5px;">
+<div class = "package-box 1">
+<img src = "img/allinclusive.jpeg" style = "width: 100%; border-radius: 10px;" alt = "Beach with Sunglasses for allinclusive">
+<!--Unsplash.com. (2019). At the beach | HD photo by Sai Kiran Anagani (@_imkiran) on Unsplash. [online] Available at: https://unsplash.com/photos/83zRhEhFMfo [Accessed 2 Oct. 2019].-->
+<h1>All Inclusive</h1>
+<!--all inclusive information-->
+ <p><span class = "more1">
+All inclusive holidays are most popular with families. <br />
+    When you book this package most if not all services are included within the price.<br /><br />
+     Included within the package:<br />
+     Accomodation <br />
+     three daily meals <br />
+     Soft Drinks<br />
+     Most Alholic Drinks<br />
+     Some may even offer extras
+    </span></p>
+<center><button type = "button" id = "read" style = "margin-top: 0px;">Read More</button></center>
+    </div>
+
+<!--full board information-->
+<div class = "package-box 2">
+<img src = "img/fullboard.jpeg" style = "width: 100%; border-radius: 10px;" alt = "New York City">
+<!--Unsplash.com. (2019). City of Dreams | HD photo by Oliver Niblett (@ojnibl) on Unsplash. [online] Available at: https://unsplash.com/photos/wh-7GeXxItI [Accessed 2 Oct. 2019].-->
+<h1>Full Board</h1>
+   <p>
+<span class = "more2">
+Full Board is popular cost effective Holiday <br />
+    You do not need to purchase food when you are booked on a Full Board Holiday<br /><br /><br />
+    Included in the package: <br />
+    Accommodaiton <br />
+    Breakfast Every morning <br />
+    Evening Meal each night <br />
+    All you have to purchase is any drink<br />
+     </span></p>
+<center><button type = "button" id = "read2" style = "margin-top: 5px;">Read More</button></center>
+</div>
+<div class = "package-box 3">
+<img src = "img/halfboard.jpeg" style = "width: 100%; border-radius: 10px;" alt = "paris">
+<!--Unsplash.com. (2019). Paris, architecture, building and tower | HD photo by Chris Karidis (@chriskaridis) on Unsplash. [online] Available at: https://unsplash.com/photos/nnzkZNYWHaU [Accessed 2 Oct. 2019].-->
+<!--half board information-->
+<h1>Half Board</h1>
+<p>
+<span class = "more3">
+Cost effective Holidays for families <br />
+    You need to pay for your dinner on a Half Board Holiday<br /><br />
+included in package: <br /><br />
+    Breakfast every morning <br />
+    Evening Meal each evening <br />
+    Accommodation <br />
+     </span></p>
+<center><button type = "button" id = "read3">Read More</button></center>
+</div> 
+<div class = "package-box 4">
+<img src = "img/selfcatering.jpeg" style = "width: 100%; border-radius: 10px;" alt= "Ancient City of Valetta">
+<!--Unsplash.com. (2019). The city of Valletta at sunset | HD photo by Micaela Parente (@mparente) on Unsplash. [online] Available at: https://unsplash.com/photos/-Jd2XVXLQ0U [Accessed 2 Oct. 2019].-->
+<!--self catering information -->
+<h1>Self Catering</h1>
+    <p><span class = "more4">
+Self Catering rooms usually have a kitchen within them.<br />
+   Guests have to cater for themselves for all meals.<br /><br />
+    Rooms usually include pots and pans to enable guests to cater for themselves.<br />
+    This allows for more flexibility to allow people to eat out.<br />
+    </span></p>
+<center><button type = "button" id = "read4">Read More</button></center>
+</div> 
+    </div>
+<!--Quotation Form-->    
+   <h1 style = "margin-top: 50px;" id = "Quote">Retrieve a quote</h1>
+<!--Quotation form-->
+<form id = "quoteform" action = "" method = "post">
+<fieldset>
+<!--Form which would allow the user to enter quotation number-->
+    <h2 class = "fs-title">Quotation Form</h2><br />
+<h2 class = "fs-title">Booking Reference Number</h2>
+<h3 class = "fs-sub">Enter your reference number</h3>
+<label for = "ref" >Reference Number:</label>
+<input type = "text" name = "ref" id = "ref" placeholder = "Reference Number" title = "reference">
+<div class="tip">What is this?
+  <span class="tiptext">Reference Number is used to help us identify your booking.format: "QRN10000"</span></div><br /><br />
+    <input type = "button" name = "next" class = "quotebutton" value = "Retrieve Quote" required>
+<!--Quotation Form which contains the information. Includes the title within the input areas which will be used to create the tool tip in jQuery which would allow the informaiton to be created.-->
+<h2 class = "fs-title">Quote</h2> 
+<h3 class = "fs-sub">Booking information</h3>
+<!--Customer Name-->
+
+      <label for="fname">Name <span></span></label>
+      <input id="fname" name="fname" type="text" placeholder = "firstname" title = "name">
+
+
+      <label for="surname">Surname <span></span></label>
+      <input id="surname" name="surname" type="text" placeholder = "surname" title = "surname">
+
+<!--Holiday Destination-->
+
+      <label for="dest">destination <span></span></label>
+      <input id="dest" name="dest" type="text" placeholder = "destination" title = "destination" required>
+
+<div class="tip">What is this?
+  <span class="tiptext">Your Desired holiday location</span></div><br />
+<!--Duration of the stay-->
+
+      <label for="checkin">Check in:<span></span></label>
+      <input id="checkin" type="text" name="checkin" placeholder = "DD/MM/YY" title = "date" required>
+
+<div class="tip">What is this?
+  <span class="tiptext">Date of your arrival at your location. Format: DD/MM/YYYY</span></div><br />
+
+      <label for="checkout">Check Out:<span></span></label>
+      <input id="checkout" type="text" name="checkout" placeholder = "DD/MM/YYYY" title = "leave" required>
+
+<div class="tip">What is this?
+  <span class="tiptext">Date of your departure format: DD/MM/YYYY</span></div><br />
+<!--Number of people on trip-->
+  
+      <label for="guest">Guests <span></span></label>
+      <input id="guest" name="guest" type="text" placeholder = "guests" title = "guest" required>
+
+<div class="tip">What is this?
+  <span class="tiptext">Number of guests in your party</span></div><br />
+<!--Customer Email Address-->
+
+<label for = "email">Email:</label>  
+<input type = "email" name = "email" placeholder = "Email" id = "email" title = "email">
+<div class="tip">What is this?
+  <span class="tiptext">Email is used as the primary form of contact. Format: jjohnston@ulter.ac.uk</span></div><br />
+<!--Customer Address-->
+
+<label for = "address">Address:</label>    
+    <input type = "text" name = "address" placeholder = "address" id = "address" title = "address">
+<!--Town Where Customer Lives-->
+
+<label for = "town">Town:</label> 
+    <input type = "text" name = "town" placeholder = "town" id = "town" title = "town">
+<!--Postcode for Address-->
+<label for = "pcode">PostCode:</label>    
+    <input type = "text" name = "pcode" placeholder = "PostCode" id = "pcode" title = "postcode">
+<!--Holiday Cost-->
+
+<label for = "cost">Quotation Price:</label>    
+<input type = "text" name = "cost" placeholder = "Quotation value (£)" id = "cost" title = "cost" required>
+<div class="tip">What is this?
+  <span class="tiptext">This is the cost of the holiday that you have booked</span></div><br /><br />
+    <input type = "button" name = "update" class = "next" value = "update">
+    </fieldset>
+<fieldset><h2>Thank You your data has been updated</h2></fieldset>
+     
+</form><br /><br /><br />
+<!--Package Offers-->
+   <h1 id = "offers">Current Offers</h1>
+    <div class = "offer-grid">
+    <div class = "offer-box 1">
+    <h1>Special Offers</h1>
+    <p>In this section you can see the current offers we have for the destinations that we cover.</p>
+    <p>To see the offers click one of the panels in the options to the right.</p>
+    <p>This will allow you to see the offers which we recommend </p>
+    <p><b>All Prices based on two people sharing</b></p>
+    </div>
+<!--offers available for all inclusive-->
+    <div class = "offer-box 2">
+<button class="info">All Inclusive</button>
+<div class="add">
+  <h1>Special Offers for All Inclusive Holidays</h1><br />
+  <p>Spain: Benidorm. 7 Nights. £899pps</p><br />
+  <p>France: Paris. 10 Nights £799pps</p><br />
+  <p>Spain: Benalmadena. 7 Nights. £1035pps</p><br />
+  <p>Italy: Massa Lubrense. 7 Nights. £945pps</p><br />
+  <p>Spain: Valencia. 7 Nights. £733pps</p><br />
+
+</div>
+    <!--offers available for full board-->
+       <button class = "info">Full Board</button>   
+    <div class="add">
+  <h1>Special Offers for Full Board Holidays</h1><br />
+  <p>Majorca: Palma Nova. 14 Nights  £599pps</p><br />
+  <p>Turkey: Marmaris. 7 Nights. £659pps.</p><br />
+  <p>Austria: Vienna. 5 Nights. £459pps</p><br />
+    </div> 
+    <!--offers available for half board-->
+       <button class = "info">Half Board</button>   
+    <div class="add">
+  <h1>Special Offers for Half Board Holidays</h1><br />
+  <p>New York: 5 Nights. £499pps</p><br />
+  <p>Spain: Barcelona. 7 Nights. £399pps</p><br />
+  <p>Italy: Sorrento. 7 Nights. £948pps</p><br />
+  <p>Spain: Benidorm. 7 Nights. £765pps</p><br />
+  <p> </p>
+    </div> 
+    <!--offers available for self catering-->
+    <button class = "info">Self Catering</button>   
+    <div class="add">
+  <h1>Special Offers for Self Catering Holidays</h1><br />
+  <p>Majorca: Alcudia. 10 Nights. £200pps</p><br />
+  <p>Germany: Berlin. 7 Nights. £250pps</p><br />
+  <p>Tenerife: Playa De Las Americas. 7 Nights £626pps</p><br />
+  <p></p>
+    </div>   
+     </div>
+     </div>
+<!--Terms & Conditions Cookie-->
+<div class="termscookie terms">
+  <div class="content">
+      <button class="terms_btn" style = "font-size: 18px;">Accept Terms and conditions</button>
+    <!--content contained within the body which would mean that the user would understand what they are accepting-->
+        <p>Our website uses cookies to track the activity of users while on our site. <br />
+        If you wish to accept the the terms of using our website. Please click the button</p>
+  </div>
+</div>
+<!--end of html-->
+<script>
+//Accordion containing Offers controls
+//variable which will look for the id info.
+var offers = document.getElementsByClassName("info");
+var i;
+
+//for loop which will execute as long as the variable i is less than the length of the content of offers.
+for (i = 0; i < offers.length; i++) {
+  offers[i].addEventListener("click", function() {
+    //will activate the chosen option when it has been clicked.
+    this.classList.toggle("active");
+    var offer = this.nextElementSibling;
+    if (offer.style.maxHeight) {
+      offer.style.maxHeight = null;
+    } else {
+    //defines that the offer variable has been clicked and will display the informaiton.
+      offer.style.maxHeight = offer.scrollHeight + "px";
+    } 
+  });
+}
+//Terms and conditions cookie
+const terms = document.querySelector('.terms');
+
+if (!localStorage.getItem('terms&conditions')) {
+  terms.classList.add('active');
+}
+//looks for the button elements on the terms and conditions and listens for a click
+terms.querySelector('button').addEventListener('click', () => {
+//loads the key and the value to the local storage on the computer.
+  localStorage.setItem('terms&conditions', 'Accepted');
+    //if the page locates the cookie it will not be loaded.
+  terms.classList.remove('active');
+});
+</script>
+     
+<script type = "text/javascript" language = "JavaScript" src = "mylibrary.js"></script>
+ </div>
+
+ <footer class="footer">
+     <p>Worldwide Travel &copy; 2019</p>
+     <p>Stock images used are credit to<a href = "https://unsplash.com/">Unsplash</a> they are referenced in the report</p>
+
+		</footer> 	
+</body>
+</html>
